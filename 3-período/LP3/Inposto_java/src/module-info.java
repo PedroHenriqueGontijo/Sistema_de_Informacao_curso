@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Inposto_java {
-}
