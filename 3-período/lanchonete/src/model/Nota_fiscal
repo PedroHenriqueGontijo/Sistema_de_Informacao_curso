@@ -1,0 +1,45 @@
+
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lanchonete_atividade;
+
+/**
+ *
+ * @author host1
+ */
+public class Nota_fiscal {
+    
+private String id_nota;
+private String data;
+
+    Cliente cliente = new Cliente();
+    Estoque estoque = new Estoque();
+    Funcionario funcionario = new Funcionario();
+
+    public Nota_fiscal(String id_nota, String data) {
+        this.id_nota = id_nota;
+        this.data = data;
+    }
+
+    public String getId_nota() {
+        return id_nota;
+    }
+
+    public void setId_nota(String id_nota) {
+        this.id_nota = id_nota;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+        
+}
