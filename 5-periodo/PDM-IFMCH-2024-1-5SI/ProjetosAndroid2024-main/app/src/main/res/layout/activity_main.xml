@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="@dimen/left_default_margin_"
+        android:layout_marginTop="@dimen/left_default_margin_"
+        android:ems="10"
+        android:text="@string/login_user_login"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="348dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="@dimen/left_default_margin_"
+        android:layout_marginTop="@dimen/top_default_margin_"
+        android:layout_marginEnd="@dimen/right_default_margin_"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="@dimen/edit_text_min_height"
+        android:text="@string/login_user_login_placeHolder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUser" />
+
+    <TextView
+        android:id="@+id/textViewPW"
+        android:layout_width="105dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="@dimen/left_default_margin_"
+        android:layout_marginTop="@dimen/top_default_margin_"
+        android:text="@string/login_user_pw"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUser" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginStart="@dimen/left_default_margin_"
+        android:layout_marginTop="@dimen/top_default_margin_"
+        android:layout_marginEnd="@dimen/right_default_margin_"
+        android:text="@string/login_user_pw_placeHolder"
+        android:minHeight="@dimen/edit_text_min_height"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPW" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_default_margin_"
+        android:layout_marginTop="@dimen/top_default_margin_"
+        android:layout_marginEnd="@dimen/right_default_margin_"
+        android:text="@string/login_buttom_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meu App de Login</string>
+
+    <!--Chaves de tela de login -->
+    <string name="login_user_login">Usúario</string>
+    <string name="login_user_login_placeHolder">Nome de Usúario</string>
+    <string name="login_user_pw">Senha</string>
+    <string name="login_user_pw_placeHolder">Digite sua Senha</string>
+
+    <string name="login_buttom_login">logar</string>
+</resources>
